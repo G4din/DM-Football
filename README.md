@@ -48,6 +48,10 @@ Please refer to the individual folders and files in this repository for detailed
 - Markus Lindgren
 - Philipp Wunsch
 
+## Important Links
+[https://mplsoccer.readthedocs.io/en/latest/index.html]
+[https://soccermatics.readthedocs.io/en/latest/index.html]
+
 ## License
 This project is released under the [MIT License](LICENSE).
 

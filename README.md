@@ -44,14 +44,14 @@ To evaluate our results, we will simulate a season of the Premier League after t
 Please refer to the individual folders and files in this repository for detailed information, code, and documentation related to each milestone.
 
 ## Team Members
-- Douglas Gådin
+- Carl Douglas Gådin
 - Markus Lindgren
 - Philipp Wunsch
 
 ## Miscellaneous
 This project is released as a project related to the course CSCI 5502-872 Data Mining at University of Colorado Boulder. 
 
-For questions or inquiries, please contact through [email](mailto:caga3121@colorado.edu).
+For questions or inquiries, please contact Carl Douglas Gådin through [email](mailto:caga3121@colorado.edu).
 
 # Get Started
 

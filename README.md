@@ -48,12 +48,6 @@ Please refer to the individual folders and files in this repository for detailed
 - Markus Lindgren
 - Philipp Wunsch
 
-## Important Links
-
-[MPL SOCCER](https://mplsoccer.readthedocs.io/en/latest/index.html).
-
-[SoccerMatics](https://soccermatics.readthedocs.io/en/latest/index.html)
-
 ## Miscellaneous
 This project is released as a project related to the course CSCI 5502-872 Data Mining at University of Colorado Boulder. 
 
@@ -70,3 +64,11 @@ For questions or inquiries, please contact through [email](mailto:caga3121@color
 To download the source data, follow this [link]()
 
 After downloading the source data, place it in the main directory.
+
+## Important Links
+
+These links helps as a guide on how to use the libraries and source data in this project. 
+
+[MPL SOCCER](https://mplsoccer.readthedocs.io/en/latest/index.html).
+
+[SoccerMatics](https://soccermatics.readthedocs.io/en/latest/index.html)

@@ -50,9 +50,10 @@ Please refer to the individual folders and files in this repository for detailed
 
 ## Important Links
 [https://mplsoccer.readthedocs.io/en/latest/index.html]
+
 [https://soccermatics.readthedocs.io/en/latest/index.html]
 
-## License
-This project is released under the [MIT License](LICENSE).
+## Miscellaneous
+This project is released as a project related to the course CSCI 5502-872 Data Mining at University of Colorado Boulder. 
 
 For questions or inquiries, please contact [caga3121@colorado.edu].

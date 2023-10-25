@@ -50,7 +50,7 @@ Please refer to the individual folders and files in this repository for detailed
 
 ## Important Links
 
-[MPL SOCCER](https://www.markdownguide.org](https://mplsoccer.readthedocs.io/en/latest/index.html).
+[MPL SOCCER](https://mplsoccer.readthedocs.io/en/latest/index.html).
 
 [SoccerMatics](https://soccermatics.readthedocs.io/en/latest/index.html)
 

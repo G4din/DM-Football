@@ -61,7 +61,7 @@ For questions or inquiries, please contact through [email](mailto:caga3121@color
 
 ## Download the Source Data
 
-To download the source data, follow this [link]()
+To download the source data, follow this [link](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/caga3121_colorado_edu/EmuhhmLvEwpOnpNsNFT_3kkB70Fa21t0t0cnamuyKPkloA?e=YXeouI)
 
 After downloading the source data, place it in the main directory.
 
@@ -69,6 +69,6 @@ After downloading the source data, place it in the main directory.
 
 These links helps as a guide on how to use the libraries and source data in this project. 
 
-[MPL SOCCER](https://mplsoccer.readthedocs.io/en/latest/index.html).
+[MPL SOCCER](https://mplsoccer.readthedocs.io/en/latest/index.html)
 
 [SoccerMatics](https://soccermatics.readthedocs.io/en/latest/index.html)

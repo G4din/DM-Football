@@ -32,14 +32,14 @@ Data mining and analytics have become increasingly prevalent in sports, includin
 To evaluate our results, we will simulate a season of the Premier League after the recommended changes have been implemented. This will help us assess whether our recommendations can improve the team's performance and placement in the table, as well as the potential financial benefits our recommendations could bring to the team.
 
 ## Milestones
-1. Data collection and preprocessing
-2. EDA and initial insights obtained
-3. Machine Learning models developed
-4. Player clustering and performance evaluation
-5. Look for potential player acquisitions
-6. Recommendations formulated
-7. Run simulation and check results
-8. Final project report and presentation
+1. Data collection and preprocessing.
+2. EDA and initial insights obtained.
+3. Machine Learning models developed.
+4. Player clustering and performance evaluation.
+5. Look for potential player acquisitions.
+6. Recommendations formulated.
+7. Run simulation and check results.
+8. Final project report and presentation.
 
 Please refer to the individual folders and files in this repository for detailed information, code, and documentation related to each milestone.
 
@@ -61,7 +61,7 @@ For questions or inquiries, please contact through [email](mailto:caga3121@color
 
 ## Download the Source Data
 
-To download the source data, follow this [link](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/caga3121_colorado_edu/EmuhhmLvEwpOnpNsNFT_3kkB70Fa21t0t0cnamuyKPkloA?e=YXeouI)
+To download the source data, follow this [link](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/caga3121_colorado_edu/EmuhhmLvEwpOnpNsNFT_3kkB70Fa21t0t0cnamuyKPkloA?e=YXeouI).
 
 After downloading the source data, place it in the main directory.
 

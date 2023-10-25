@@ -44,9 +44,9 @@ To evaluate our results, we will simulate a season of the Premier League after t
 Please refer to the individual folders and files in this repository for detailed information, code, and documentation related to each milestone.
 
 ## Team Members
-- [Douglas Gådin]
-- [Markus Lindgren]
-- [Philipp Wunsch]
+- Douglas Gådin
+- Markus Lindgren
+- Philipp Wunsch
 
 ## License
 This project is released under the [MIT License](LICENSE).

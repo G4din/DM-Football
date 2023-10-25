@@ -1,7 +1,7 @@
 # Premier League Soccer Team Analysis Project
 
 ## Introduction
-This repository contains the project proposal and related materials for our data mining analysis of a Premier League soccer team's performance. In this project, we aim to utilize data mining techniques to analyze the team's performance and make recommendations for potential player acquisitions to enhance their performance in the league.
+This repository contains the project material and related materials for our data mining analysis of a Premier League soccer team's performance. In this project, we aim to utilize data mining techniques to analyze the team's performance and make recommendations for potential player acquisitions to enhance their performance in the league.
 
 ## Project Goals
 Our main objectives for this project are as follows:
@@ -44,11 +44,11 @@ To evaluate our results, we will simulate a season of the Premier League after t
 Please refer to the individual folders and files in this repository for detailed information, code, and documentation related to each milestone.
 
 ## Team Members
-- [Your Name]
-- [Team Member 2 Name (if applicable)]
-- [Team Member 3 Name (if applicable)]
+- [Douglas Gådin]
+- [Markus Lindgren]
+- [Philipp Wunsch]
 
 ## License
 This project is released under the [MIT License](LICENSE).
 
-For questions or inquiries, please contact [Your Email Address].
+For questions or inquiries, please contact [caga3121@colorado.edu].

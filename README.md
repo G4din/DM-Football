@@ -1,7 +1,7 @@
 # Premier League Soccer Team Analysis Project
 
 ## Introduction
-This repository contains the project material and related materials for our data mining analysis of AFC Bournemouth performance in the 2018/2019 season of Premier League. In this project, we aim to utilize data mining techniques to analyze the team's performance and make recommendations for potential player acquisitions to enhance their performance in the league.
+This repository contains the project material and related materials for our data mining analysis of a Premier League soccer team's performance. In this project, we aim to utilize data mining techniques to analyze the team's performance and make recommendations for potential player acquisitions to enhance their performance in the league.
 
 ## Project Goals
 Our main objectives for this project are as follows:
@@ -32,23 +32,43 @@ Data mining and analytics have become increasingly prevalent in sports, includin
 To evaluate our results, we will simulate a season of the Premier League after the recommended changes have been implemented. This will help us assess whether our recommendations can improve the team's performance and placement in the table, as well as the potential financial benefits our recommendations could bring to the team.
 
 ## Milestones
-1. Data collection and preprocessing
-2. EDA and initial insights obtained
-3. Machine Learning models developed
-4. Player clustering and performance evaluation
-5. Look for potential player acquisitions
-6. Recommendations formulated
-7. Run simulation and check results
-8. Final project report and presentation
+1. Data collection and preprocessing.
+2. EDA and initial insights obtained.
+3. Machine Learning models developed.
+4. Player clustering and performance evaluation.
+5. Look for potential player acquisitions.
+6. Recommendations formulated.
+7. Run simulation and check results.
+8. Final project report and presentation.
 
 Please refer to the individual folders and files in this repository for detailed information, code, and documentation related to each milestone.
 
 ## Team Members
-- Douglas Gådin
+- Carl Douglas Gådin
 - Markus Lindgren
 - Philipp Wunsch
 
-## License
-This project is released under the [MIT License](LICENSE).
+## Miscellaneous
+This project is released as a project related to the course CSCI 5502-872 Data Mining at University of Colorado Boulder. 
 
-For questions or inquiries, please contact [caga3121@colorado.edu].
+For questions or inquiries, please contact Carl Douglas Gådin through [email](mailto:caga3121@colorado.edu).
+
+# Get Started
+
+## Clone the Repository
+
+`git clone https://github.com/G4din/DM-Football.git`
+
+## Download the Source Data
+
+To download the source data, follow this [link](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/caga3121_colorado_edu/EmuhhmLvEwpOnpNsNFT_3kkB70Fa21t0t0cnamuyKPkloA?e=YXeouI).
+
+After downloading the source data, place it in the main directory.
+
+## Important Links
+
+These links helps as a guide on how to use the libraries and source data in this project. 
+
+[MPL SOCCER](https://mplsoccer.readthedocs.io/en/latest/index.html)
+
+[SoccerMatics](https://soccermatics.readthedocs.io/en/latest/index.html)

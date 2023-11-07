@@ -1,0 +1,20 @@
+Rough TODO list: 
+
+1. Webscrape the data from transfermarkt that is now manually done in season_analysis
+2. Make the graphs better in season_analysis
+
+3. Start with the team_analysis 
+    Find the weakneses and where most potential lies in the team
+
+4. Start with player_analysis
+    Depending on results from team_analysis, see what players that need to be replaced
+
+5. Start with financial_analysis
+    See how much money we can free up by releasing certain players
+    See how much we can use for buying new players
+
+6. Start with scouting_analysis
+    Find players that have the things missing from the players we are replacing and that we can afford
+
+7. Start with the simulation
+    Create a model for simulating a season of PL with the new players that we have 

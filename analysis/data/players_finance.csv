@@ -1,101 +1,3726 @@
-Player Name,Market Value (m€),Fee (m€)
-Neymar,100.0,222.0
-Philippe Coutinho,90.0,135.0
-Ousmane Dembélé,33.0,135.0
-Romelu Lukaku,50.0,84.7
-Virgil van Dijk,30.0,84.65
-Álvaro Morata,40.0,66.0
-Aymeric Laporte,25.0,65.0
-Pierre-Emerick Aubameyang,65.0,63.75
-Diego Costa,50.0,60.0
-Benjamin Mendy,13.0,57.5
-Alexandre Lacazette,40.0,53.0
-Kyle Walker,30.0,52.7
-Bernardo Silva,40.0,50.0
-Gylfi Sigurdsson,25.0,49.4
-Nemanja Matic,35.0,44.7
-Leonardo Bonucci,45.0,42.0
-Mohamed Salah,35.0,42.0
-Davinson Sánchez,25.0,42.0
-Corentin Tolisso,22.0,41.5
-Federico Bernardeschi,30.0,40.0
-Cédric Bakambu,25.0,40.0
-Ederson,22.0,40.0
-Tiemoué Bakayoko,16.0,40.0
-Paulinho,15.0,40.0
-Alex Oxlade-Chamberlain,22.0,38.0
-André Silva,22.0,38.0
-Danny Drinkwater,9.0,37.9
-Nélson Semedo,20.0,35.7
-Vitolo,25.0,35.6
-Antonio Rüdiger,25.0,35.0
-Victor Lindelöf,22.0,35.0
-Alexis Sánchez,70.0,34.0
-Henrikh Mkhitaryan,35.0,34.0
-Milan Skriniar,7.0,34.0
-Iñigo Martínez,25.0,32.0
-Alessandro Bastoni,1.5,31.1
-Yannick Carrasco,40.0,30.0
-Keita Baldé,25.0,30.0
-Danilo,16.0,30.0
-Michael Keane,18.0,28.5
-Jordan Pickford,15.0,28.5
-Lucas Moura,28.0,28.4
-Mamadou Sakho,15.0,28.2
-Kelechi Iheanacho,15.0,27.7
-Davy Klaassen,18.0,27.0
-Blaise Matuidi,30.0,25.0
-Youri Tielemans,22.0,25.0
-Andriy Yarmolenko,18.0,25.0
-Serge Aurier,15.0,25.0
-Davide Zappacosta,8.5,25.0
-Luis Muriel,17.0,24.5
-Theo Hernández,15.0,24.0
-Matías Vecino,13.0,24.0
-Andrea Conti,10.0,24.0
-Hakan Çalhanoğlu,20.0,23.3
-Leandro Paredes,13.0,23.0
-André Ayew,18.0,22.8
-Nathan Aké,8.0,22.8
-Theo Walcott,20.0,22.5
-Cenk Tosun,10.5,22.5
-Marko Arnautovic,15.0,22.3
-Guido Carrillo,6.0,22.0
-Rodrigo Bentancur,6.0,21.7
-Manuel Akanji,5.0,21.5
-Kingsley Coman,20.0,21.0
-Nikola Maksimovic,10.0,21.0
-Dalbert,5.0,21.0
-Pietro Pellegri,8.0,20.9
-Jadon Sancho,5.0,20.59
-Adrien Silva,25.0,20.5
-Roberto Gagliardini,15.0,20.5
-Andre Gray,10.0,20.4
-Juan Cuadrado,25.0,20.0
-Niklas Süle,25.0,20.0
-Maximilian Philipp,15.0,20.0
-Kevin Kampl,15.0,20.0
-Óliver Torres,14.0,20.0
-Emerson Palmieri,14.0,20.0
-Lucas Biglia,20.0,19.7
-Kevin Wimmer,7.0,19.4
-Nabil Bentaleb,18.0,19.0
-Lucas Alario,12.0,19.0
-Mateo Musacchio,18.0,18.0
-Wojciech Szczesny,17.0,18.0
-Nicolas Pépé,3.0,18.0
-Rúben Neves,10.0,17.9
-Chicharito,18.0,17.8
-Panagiotis Retsos,5.0,17.5
-Mario Lemina,7.5,17.25
-Britt Assombalonga,5.0,17.1
-Olivier Giroud,20.0,17.0
-Matthias Ginter,15.0,17.0
-John Anthony Brooks,14.0,17.0
-Giovanni Simeone,10.0,17.0
-Jürgen Locadia,8.5,17.0
-Jhon Córdoba,7.0,17.0
-Ismaïla Sarr,2.5,17.0
-Ross Barkley,25.0,16.8
-Medhi Benatia,15.0,16.7
-Marten de Roon,10.0,16.7
+Player Name,Market Value (m€),Fee (m€),Position
+Neymar,100.0,222.0,Left Winger
+Philippe Coutinho,90.0,135.0,Attacking Midfield
+Ousmane Dembélé,33.0,135.0,Right Winger
+Romelu Lukaku,50.0,84.7,Centre-Forward
+Virgil van Dijk,30.0,84.65,Centre-Back
+Álvaro Morata,40.0,66.0,Centre-Forward
+Aymeric Laporte,25.0,65.0,Centre-Back
+Pierre-Emerick Aubameyang,65.0,63.75,Centre-Forward
+Diego Costa,50.0,60.0,Centre-Forward
+Benjamin Mendy,13.0,57.5,Left-Back
+Alexandre Lacazette,40.0,53.0,Centre-Forward
+Kyle Walker,30.0,52.7,Right-Back
+Bernardo Silva,40.0,50.0,Attacking Midfield
+Gylfi Sigurdsson,25.0,49.4,Attacking Midfield
+Nemanja Matic,35.0,44.7,Defensive Midfield
+Leonardo Bonucci,45.0,42.0,Centre-Back
+Mohamed Salah,35.0,42.0,Right Winger
+Davinson Sánchez,25.0,42.0,Centre-Back
+Corentin Tolisso,22.0,41.5,Central Midfield
+Federico Bernardeschi,30.0,40.0,Right Winger
+Cédric Bakambu,25.0,40.0,Centre-Forward
+Ederson,22.0,40.0,Goalkeeper
+Tiemoué Bakayoko,16.0,40.0,Defensive Midfield
+Paulinho,15.0,40.0,Central Midfield
+Alex Oxlade-Chamberlain,22.0,38.0,Central Midfield
+André Silva,22.0,38.0,Centre-Forward
+Danny Drinkwater,9.0,37.9,Central Midfield
+Nélson Semedo,20.0,35.7,Right-Back
+Vitolo,25.0,35.6,Left Winger
+Antonio Rüdiger,25.0,35.0,Centre-Back
+Victor Lindelöf,22.0,35.0,Centre-Back
+Alexis Sánchez,70.0,34.0,Centre-Forward
+Henrikh Mkhitaryan,35.0,34.0,Central Midfield
+Milan Skriniar,7.0,34.0,Centre-Back
+Iñigo Martínez,25.0,32.0,Centre-Back
+Alessandro Bastoni,1.5,31.1,Centre-Back
+Yannick Carrasco,40.0,30.0,Left Winger
+Keita Baldé,25.0,30.0,Centre-Forward
+Danilo,16.0,30.0,Centre-Back
+Michael Keane,18.0,28.5,Centre-Back
+Jordan Pickford,15.0,28.5,Goalkeeper
+Lucas Moura,28.0,28.4,Right Winger
+Mamadou Sakho,15.0,28.2,Centre-Back
+Kelechi Iheanacho,15.0,27.7,Centre-Forward
+Davy Klaassen,18.0,27.0,Central Midfield
+Blaise Matuidi,30.0,25.0,Central Midfield
+Youri Tielemans,22.0,25.0,Central Midfield
+Andriy Yarmolenko,18.0,25.0,Right Winger
+Serge Aurier,15.0,25.0,Right-Back
+Davide Zappacosta,8.5,25.0,Right Midfield
+Luis Muriel,17.0,24.5,Centre-Forward
+Theo Hernández,15.0,24.0,Left-Back
+Matías Vecino,13.0,24.0,Central Midfield
+Andrea Conti,10.0,24.0,Right-Back
+Hakan Çalhanoğlu,20.0,23.3,Defensive Midfield
+Leandro Paredes,13.0,23.0,Defensive Midfield
+André Ayew,18.0,22.8,Left Winger
+Nathan Aké,8.0,22.8,Centre-Back
+Theo Walcott,20.0,22.5,Right Winger
+Cenk Tosun,10.5,22.5,Centre-Forward
+Marko Arnautovic,15.0,22.3,Centre-Forward
+Guido Carrillo,6.0,22.0,Centre-Forward
+Rodrigo Bentancur,6.0,21.7,Central Midfield
+Manuel Akanji,5.0,21.5,Centre-Back
+Kingsley Coman,20.0,21.0,Left Winger
+Nikola Maksimovic,10.0,21.0,Centre-Back
+Dalbert,5.0,21.0,Left-Back
+Pietro Pellegri,8.0,20.9,Centre-Forward
+Jadon Sancho,5.0,20.59,Left Winger
+Adrien Silva,25.0,20.5,Central Midfield
+Roberto Gagliardini,15.0,20.5,Central Midfield
+Andre Gray,10.0,20.4,Centre-Forward
+Juan Cuadrado,25.0,20.0,Right Midfield
+Niklas Süle,25.0,20.0,Centre-Back
+Maximilian Philipp,15.0,20.0,Second Striker
+Kevin Kampl,15.0,20.0,Central Midfield
+Óliver Torres,14.0,20.0,Central Midfield
+Emerson Palmieri,14.0,20.0,Left-Back
+Lucas Biglia,20.0,19.7,Defensive Midfield
+Kevin Wimmer,7.0,19.4,Centre-Back
+Nabil Bentaleb,18.0,19.0,Central Midfield
+Lucas Alario,12.0,19.0,Centre-Forward
+Mateo Musacchio,18.0,18.0,Centre-Back
+Wojciech Szczesny,17.0,18.0,Goalkeeper
+Nicolas Pépé,3.0,18.0,Right Winger
+Rúben Neves,10.0,17.9,Defensive Midfield
+Chicharito,18.0,17.8,Centre-Forward
+Panagiotis Retsos,5.0,17.5,Centre-Back
+Mario Lemina,7.5,17.25,Defensive Midfield
+Britt Assombalonga,5.0,17.1,Centre-Forward
+Olivier Giroud,20.0,17.0,Centre-Forward
+Matthias Ginter,15.0,17.0,Centre-Back
+John Anthony Brooks,14.0,17.0,Centre-Back
+Giovanni Simeone,10.0,17.0,Centre-Forward
+Jürgen Locadia,8.5,17.0,Centre-Forward
+Jhon Córdoba,7.0,17.0,Centre-Forward
+Ismaïla Sarr,2.5,17.0,Right Winger
+Ross Barkley,25.0,16.8,Central Midfield
+Medhi Benatia,15.0,16.7,Centre-Back
+Marten de Roon,10.0,16.7,Defensive Midfield
+Dani Ceballos,10.0,16.5,Central Midfield
+Chris Wood,6.0,16.4,Centre-Forward
+Sam Clucas,2.5,16.3,Central Midfield
+Simone Zaza,15.0,16.0,Centre-Forward
+Yuri Berchiche,10.0,16.0,Left-Back
+Rick Karsdorp,9.0,16.0,Right-Back
+Wesley Hoedt,7.5,16.0,Centre-Back
+Badou Ndiaye,7.0,16.0,Central Midfield
+Emanuel Mammana,7.0,16.0,Centre-Back
+Jean-Kévin Augustin,3.0,16.0,Centre-Forward
+Alexander Sørloth,2.0,16.0,Centre-Forward
+Oliver Burke,7.0,15.2,Centre-Forward
+Fernando Llorente,6.0,15.1,Centre-Forward
+Ricardo Rodríguez,17.0,15.0,Centre-Back
+Konstantinos Mitroglou,12.0,15.0,Centre-Forward
+Bruma,11.0,15.0,Left Winger
+Terence Kongolo,10.0,15.0,Centre-Back
+Vicente Iborra,9.0,15.0,Defensive Midfield
+Sebastián Driussi,8.0,15.0,Attacking Midfield
+Gianluca Caprari,6.0,15.0,Second Striker
+José Izquierdo,14.0,14.5,Left Winger
+Cengiz Ünder,5.0,14.25,Right Winger
+Francis Coquelin,12.0,14.0,Defensive Midfield
+Ignacio Camacho,10.0,14.0,Defensive Midfield
+Enes Ünal,10.0,14.0,Centre-Forward
+Rúben Semedo,9.0,14.0,Centre-Back
+Thiago Maia,4.5,14.0,Defensive Midfield
+Jay Rodríguez,10.0,13.7,Centre-Forward
+Harry Maguire,8.0,13.7,Centre-Back
+Marko Rog,10.0,13.5,Central Midfield
+James Rodríguez,50.0,,Attacking Midfield
+Wilfried Bony,18.0,13.0,Centre-Forward
+Davy Pröpper,10.0,13.0,Central Midfield
+Sandro Wagner,9.0,13.0,Centre-Forward
+Steve Mounié,5.5,13.0,Centre-Forward
+Emre Mor,5.0,13.0,Right Winger
+Roque Mesa,12.0,12.5,Central Midfield
+Bruno Peres,11.0,12.5,Right-Back
+Simon Kjaer,11.0,12.5,Centre-Back
+Yevgen Konoplyanka,10.0,12.5,Left Winger
+Hirving Lozano,10.0,12.5,Right Winger
+Sven Bender,7.0,12.5,Defensive Midfield
+Mario Hermoso,0.4,12.5,Centre-Back
+Yerry Mina,9.0,12.4,Centre-Back
+Richarlison,2.0,12.4,Centre-Forward
+Alex Pritchard,5.0,12.35,Attacking Midfield
+Esequiel Barco,6.5,12.28,Left Winger
+Ömer Toprak,16.0,12.0,Centre-Back
+Mahmoud Dahoud,15.0,12.0,Central Midfield
+Gerard Deulofeu,12.0,12.0,Centre-Forward
+Pablo Fornals,10.0,12.0,Attacking Midfield
+Marco Benassi,9.5,12.0,Central Midfield
+Mattia De Sciglio,8.5,12.0,Right-Back
+Adrián Ramos,5.0,12.0,Centre-Forward
+Roberto Inglese,4.5,12.0,Centre-Forward
+Adam Ounas,4.0,12.0,Right Winger
+Denis Zakaria,4.0,12.0,Defensive Midfield
+Pedro Rocha,1.5,12.0,Left Winger
+Douglas Luiz,,12.0,Central Midfield
+Jordan Rhodes,10.0,11.7,Centre-Forward
+Asmir Begovic,8.0,11.5,Goalkeeper
+Landry Dimata,6.5,11.5,Centre-Forward
+Lucas Pratto,4.5,11.5,Centre-Forward
+Martin Braithwaite,7.5,11.3,Centre-Forward
+Jacob Murphy,1.0,11.3,Right Winger
+Florian Thauvin,18.0,11.0,Right Winger
+Gabriel Paulista,13.0,11.0,Centre-Back
+Martin Terrier,12.0,11.0,Left Winger
+Guilherme Arana,10.0,11.0,Left-Back
+Jonathan Viera,8.0,11.0,Attacking Midfield
+Diego Llorente,7.5,11.0,Centre-Back
+Jô,4.0,11.0,Centre-Forward
+Nikola Vlašić,4.0,10.8,Attacking Midfield
+Marc Bartra,15.0,10.5,Centre-Back
+Stevan Jovetic,10.0,10.5,Centre-Forward
+Juan Foyth,5.0,10.5,Right-Back
+Luiz Araújo,0.5,10.5,Right Winger
+Jordan Hugill,3.0,10.2,Centre-Forward
+Luiz Gustavo,12.0,10.0,Defensive Midfield
+Lorenzo Pellegrini,12.0,10.0,Attacking Midfield
+Younès Belhanda,9.0,10.0,Attacking Midfield
+Diafra Sakho,8.0,10.0,Centre-Forward
+Bertrand Traoré,8.0,10.0,Right Winger
+Florian Lejeune,5.0,10.0,Centre-Back
+Maximiliano Romero,4.0,10.0,Centre-Forward
+Loïs Diony,3.0,10.0,Centre-Forward
+Allan Saint-Maximin,3.0,10.0,Left Winger
+Adama Diakhaby,1.5,10.0,Right Winger
+Pape Cheikh,0.8,10.0,Central Midfield
+Leonardo Pavoletti,11.0,9.8,Centre-Forward
+Bruno Fernandes,7.5,9.7,Attacking Midfield
+Marcos Acuña,7.0,9.59,Left-Back
+Facundo Colidio,,9.5,Centre-Forward
+Tom Cleverley,8.0,9.3,Central Midfield
+Will Hughes,8.0,9.1,Central Midfield
+Tom Ince,7.0,9.1,Right Winger
+Aaron Mooy,5.0,9.1,Central Midfield
+Jack Cork,5.0,9.1,Defensive Midfield
+Jonathas,7.0,9.0,Centre-Forward
+Emiliano Rigoni,7.0,9.0,Right Winger
+Andrew Robertson,7.0,9.0,Left-Back
+Jairo Riedewald,5.0,9.0,Defensive Midfield
+Thiago Mendes,4.0,9.0,Defensive Midfield
+Kévin Malcuit,3.0,9.0,Right-Back
+Nicola Murru,2.5,9.0,Left-Back
+Huan Liu,0.2,8.9,Left-Back
+Guido Pizarro,5.0,8.7,Defensive Midfield
+Renato Sanches,22.0,,Central Midfield
+Adnan Januzaj,7.0,8.5,Right Winger
+Matías Kranevitter,6.0,8.5,Defensive Midfield
+Milot Rashica,5.0,8.1,Right Winger
+Serge Gnabry,15.0,8.0,Right Winger
+Valère Germain,10.0,8.0,Centre-Forward
+Maicon,8.0,8.0,Centre-Back
+Juan Jesus,7.5,8.0,Centre-Back
+Sofiane Hanni,7.0,8.0,Attacking Midfield
+Soualiho Meïté,7.0,8.0,Central Midfield
+Henry Onyekuru,7.0,8.0,Left Winger
+Davie Selke,6.0,8.0,Centre-Forward
+Vitor Hugo,6.0,8.0,Centre-Back
+Nicolas de Préville,5.5,8.0,Centre-Forward
+Gustavo Bou,5.5,8.0,Centre-Forward
+Håvard Nordtveit,5.0,8.0,Centre-Back
+Mariano Díaz,5.0,8.0,Centre-Forward
+Miha Mevlja,4.0,8.0,Centre-Back
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
+Admir Mehmedi,3.5,8.0,Second Striker
+Wanderson,2.75,8.0,Left Winger
+Amine Harit,2.0,8.0,Attacking Midfield
+Rafik Guitane,0.15,8.0,Right Winger
+Kurt Zouma,15.0,,Centre-Back
+Lyanco,0.75,7.75,Centre-Back
+Bruno Martins Indi,11.0,7.7,Centre-Back
+Kieran Gibbs,10.0,7.5,Left-Back
+Jonathan Cafu,10.0,7.5,Right Winger
+Wendel,7.5,7.5,Central Midfield
+Marcelo,6.5,7.5,Centre-Back
+Christian Atsu,5.0,7.5,Left Winger
+Badou Ndiaye,5.0,7.5,Central Midfield
+Sone Aluko,2.5,7.5,Right Winger
+Maximilian Wöber,0.7,7.5,Centre-Back
+Pedro Neto,0.25,,Right Winger
+Filippo Romagna,1.0,7.4,Centre-Back
+Ashley Fletcher,1.0,7.3,Centre-Forward
+Ollie Watkins,0.15,7.22,Centre-Forward
+Yuning Zhang,0.7,7.2,Centre-Forward
+Avilés Hurtado,2.5,7.13,Right Winger
+Éver Banega,16.0,7.0,Central Midfield
+Nolito,12.0,7.0,Left Winger
+Ryad Boudebouz,10.0,7.0,Attacking Midfield
+Giuliano,9.0,7.0,Central Midfield
